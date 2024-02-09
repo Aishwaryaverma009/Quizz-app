@@ -10,7 +10,7 @@ app.use(express.static("public")); // Serve static files from 'public' directory
 
 // MongoDB Atlas connection string
 const uri =
-  "mongodb+srv://abhishek1010be21:rDajp8v4jY92AlLj@question.smrek5j.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://aishwarya1262be21:<5400>@cluster0.gzrivuf.mongodb.net/?retryWrites=true&w=majority";
 
 // Connect to MongoDB Atlas
 MongoClient.connect(uri, (err, client) => {
